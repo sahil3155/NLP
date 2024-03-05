@@ -1,0 +1,11 @@
+1) data pre-processing : [ lemmatization, remove blank spaces, lower case, stop words]
+
+2)Tokenize the sentence : covert sentence into token and give index according to frequency (Ex: if the is highest frequnet word then index of "The" will be lowest means may be 1..so according to frquencey . give index
+
+3)pad-sequence(we have to give this sequence to nural network,fixed size of sequence is needed.) for that try to apply padding and truncating to the sentence.
+
+
+4)split x and y ...but y should be one - hot encode. So, it can predict next word.
+
+5)apply machine learning algoritham to train the model.(LSTM or bidirectional LSTM)
+   1)use Embedding layer as first layer
